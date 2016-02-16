@@ -84,7 +84,7 @@ Select name, discount
 From customers
 Where discount In ( select discount
 		    From customers
-		    Where city In ('Dallas', 'London'))
+		    Where city In ('Dallas', 'London'));
 
 
 
